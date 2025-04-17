@@ -1,0 +1,12 @@
+# pwa_google_colab.desktop
+
+[Desktop Entry]
+Name=Google Colab
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Google Colab" --app-id cdbijngggjkalinmffpblfekjekjjadf --profile "Profile 3"
+Icon=chrome-cdbijngggjkalinmffpblfekjekjjadf-Profile_3
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_cdbijngggjkalinmffpblfekjekjjadf
+StartupNotify=true
+X-GNOME-UsesNotifications=true

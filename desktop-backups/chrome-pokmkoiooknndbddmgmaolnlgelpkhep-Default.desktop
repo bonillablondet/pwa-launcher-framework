@@ -1,0 +1,12 @@
+# pwa_paramountplus.desktop
+
+[Desktop Entry]
+Name=Paramount+
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Paramount+" --app-id pokmkoiooknndbddmgmaolnlgelpkhep --profile Default
+Icon=chrome-pokmkoiooknndbddmgmaolnlgelpkhep-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_pokmkoiooknndbddmgmaolnlgelpkhep
+StartupNotify=true
+X-GNOME-UsesNotifications=true

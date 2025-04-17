@@ -1,0 +1,12 @@
+# pwa_monarch_money.desktop
+
+[Desktop Entry]
+Name=Monarch Money
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Monarch Money" --app-id amfocbaodnbjankcmmkijopbkmoifgig --profile Default
+Icon=chrome-amfocbaodnbjankcmmkijopbkmoifgig-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_amfocbaodnbjankcmmkijopbkmoifgig
+StartupNotify=true
+X-GNOME-UsesNotifications=true

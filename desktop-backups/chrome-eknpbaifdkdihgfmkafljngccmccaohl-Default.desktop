@@ -1,0 +1,29 @@
+# pwa_espn.desktop
+
+[Desktop Entry]
+Name=ESPN
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "ESPN" --app-id eknpbaifdkdihgfmkafljngccmccaohl --profile Default
+Icon=chrome-eknpbaifdkdihgfmkafljngccmccaohl-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_eknpbaifdkdihgfmkafljngccmccaohl
+StartupNotify=true
+X-GNOME-UsesNotifications=true
+Actions=ESPN-;Listen;News-and-Scores;Watch;
+
+[Desktop Action ESPN-]
+Name=ESPN+
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "ESPN+" --app-id eknpbaifdkdihgfmkafljngccmccaohl --profile Default
+
+[Desktop Action Listen]
+Name=Listen
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "ESPN Listen" --app-id eknpbaifdkdihgfmkafljngccmccaohl --profile Default
+
+[Desktop Action News-and-Scores]
+Name=News and Scores
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "ESPN News" --app-id eknpbaifdkdihgfmkafljngccmccaohl --profile Default
+
+[Desktop Action Watch]
+Name=Watch
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "ESPN Watch" --app-id eknpbaifdkdihgfmkafljngccmccaohl --profile Default

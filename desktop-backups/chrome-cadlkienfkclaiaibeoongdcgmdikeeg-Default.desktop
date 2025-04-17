@@ -1,0 +1,12 @@
+# pwa_chatgpt.desktop
+
+[Desktop Entry]
+Name=ChatGPT
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "ChatGPT" --app-id cadlkienfkclaiaibeoongdcgmdikeeg --profile Default
+Icon=chrome-cadlkienfkclaiaibeoongdcgmdikeeg-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_cadlkienfkclaiaibeoongdcgmdikeeg
+StartupNotify=true
+X-GNOME-UsesNotifications=true

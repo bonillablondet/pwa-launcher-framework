@@ -1,0 +1,12 @@
+# pwa_google_scholar.desktop
+
+[Desktop Entry]
+Name=Google Scholar
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Google Scholar" --app-id mnngjhflpjekcfggjdbannljlihnfbdl --profile Default
+Icon=chrome-mnngjhflpjekcfggjdbannljlihnfbdl-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_mnngjhflpjekcfggjdbannljlihnfbdl
+StartupNotify=true
+X-GNOME-UsesNotifications=true

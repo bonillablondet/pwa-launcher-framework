@@ -1,0 +1,12 @@
+# pwa_google_translate.desktop
+
+[Desktop Entry]
+Name=Google Translate
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Google Translate" --app-id edanbjnaiofggfmimiidpfmhggkbokck --profile Default
+Icon=chrome-edanbjnaiofggfmimiidpfmhggkbokck-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_edanbjnaiofggfmimiidpfmhggkbokck
+StartupNotify=true
+X-GNOME-UsesNotifications=true

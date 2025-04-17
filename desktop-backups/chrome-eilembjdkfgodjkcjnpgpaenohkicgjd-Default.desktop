@@ -1,0 +1,12 @@
+# pwa_google_keep.desktop
+
+[Desktop Entry]
+Name=Google Keep
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Google Keep" --app-id eilembjdkfgodjkcjnpgpaenohkicgjd --profile Default
+Icon=chrome-eilembjdkfgodjkcjnpgpaenohkicgjd-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_eilembjdkfgodjkcjnpgpaenohkicgjd
+StartupNotify=true
+X-GNOME-UsesNotifications=true

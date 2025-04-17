@@ -1,0 +1,12 @@
+# pwa_naver_papago.desktop
+
+[Desktop Entry]
+Name=Naver Papago
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Naver Papago" --app-id kdhdkmeileofnlbnpndjkbgiemlhgmmd --profile Default
+Icon=chrome-kdhdkmeileofnlbnpndjkbgiemlhgmmd-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_kdhdkmeileofnlbnpndjkbgiemlhgmmd
+StartupNotify=true
+X-GNOME-UsesNotifications=true

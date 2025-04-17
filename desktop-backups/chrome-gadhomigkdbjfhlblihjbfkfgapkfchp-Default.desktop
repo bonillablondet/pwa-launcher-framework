@@ -1,0 +1,12 @@
+# pwa_wanderlog.desktop
+
+[Desktop Entry]
+Name=Wanderlog
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Wanderlog" --app-id gadhomigkdbjfhlblihjbfkfgapkfchp --profile Default
+Icon=chrome-gadhomigkdbjfhlblihjbfkfgapkfchp-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_gadhomigkdbjfhlblihjbfkfgapkfchp
+StartupNotify=true
+X-GNOME-UsesNotifications=true

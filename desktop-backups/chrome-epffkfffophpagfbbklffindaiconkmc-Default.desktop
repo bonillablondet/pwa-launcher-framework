@@ -1,0 +1,25 @@
+# pwa_hulu.desktop
+
+[Desktop Entry]
+Name=Hulu
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Hulu" --app-id epffkfffophpagfbbklffindaiconkmc --profile Default
+Icon=chrome-epffkfffophpagfbbklffindaiconkmc-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_epffkfffophpagfbbklffindaiconkmc
+StartupNotify=true
+X-GNOME-UsesNotifications=true
+Actions=Home;Movies;TV;
+
+[Desktop Action Home]
+Name=Home
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Hulu - Home" --app-id epffkfffophpagfbbklffindaiconkmc --profile Default
+
+[Desktop Action Movies]
+Name=Movies
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Hulu - Movies" --app-id epffkfffophpagfbbklffindaiconkmc --profile Default
+
+[Desktop Action TV]
+Name=TV
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Hulu - TV" --app-id epffkfffophpagfbbklffindaiconkmc --profile Default

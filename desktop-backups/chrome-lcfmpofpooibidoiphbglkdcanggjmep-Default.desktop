@@ -1,0 +1,12 @@
+# pwa_adobe_acrobat.desktop
+
+[Desktop Entry]
+Name=Adobe Acrobat
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Adobe Acrobat" --app-id lcfmpofpooibidoiphbglkdcanggjmep --profile Default
+Icon=chrome-lcfmpofpooibidoiphbglkdcanggjmep-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_lcfmpofpooibidoiphbglkdcanggjmep
+StartupNotify=true
+X-GNOME-UsesNotifications=true

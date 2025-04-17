@@ -1,0 +1,12 @@
+# pwa_prime_video.desktop
+
+[Desktop Entry]
+Name=Prime Video
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Prime Video" --app-id cfjnljoemfjedmnfadmodafghlmkbfde --profile Default
+Icon=chrome-cfjnljoemfjedmnfadmodafghlmkbfde-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_cfjnljoemfjedmnfadmodafghlmkbfde
+StartupNotify=true
+X-GNOME-UsesNotifications=true

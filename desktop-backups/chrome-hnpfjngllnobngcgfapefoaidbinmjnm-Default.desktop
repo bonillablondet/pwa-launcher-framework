@@ -1,0 +1,12 @@
+# pwa_whatsapp_web.desktop
+
+[Desktop Entry]
+Name=WhatsApp Web
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "WhatsApp Web" --app-id hnpfjngllnobngcgfapefoaidbinmjnm --profile Default
+Icon=chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_hnpfjngllnobngcgfapefoaidbinmjnm
+StartupNotify=true
+X-GNOME-UsesNotifications=true

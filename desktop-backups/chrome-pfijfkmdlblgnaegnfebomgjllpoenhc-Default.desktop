@@ -1,0 +1,12 @@
+# pwa_scite.ai.desktop
+
+[Desktop Entry]
+Name=Scite.ai
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "Scite.ai" --app-id pfijfkmdlblgnaegnfebomgjllpoenhc --profile Default
+Icon=chrome-pfijfkmdlblgnaegnfebomgjllpoenhc-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_pfijfkmdlblgnaegnfebomgjllpoenhc
+StartupNotify=true
+X-GNOME-UsesNotifications=true

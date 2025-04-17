@@ -1,0 +1,12 @@
+# pwa_mit-dsml.desktop
+
+[Desktop Entry]
+Name=MIT-DSML
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "MIT-DSML" --app-id dkgbjhcgonmdmbkcaegeidffkbekcpbd --profile Default
+Icon=chrome-dkgbjhcgonmdmbkcaegeidffkbekcpbd-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_dkgbjhcgonmdmbkcaegeidffkbekcpbd
+StartupNotify=true
+X-GNOME-UsesNotifications=true

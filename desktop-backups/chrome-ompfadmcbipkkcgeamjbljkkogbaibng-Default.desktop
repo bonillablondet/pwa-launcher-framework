@@ -1,0 +1,12 @@
+# pwa_heinonline.desktop
+
+[Desktop Entry]
+Name=HeinOnline
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "HeinOnline" --app-id ompfadmcbipkkcgeamjbljkkogbaibng --profile Default
+Icon=chrome-ompfadmcbipkkcgeamjbljkkogbaibng-Default
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupWMClass=crx_ompfadmcbipkkcgeamjbljkkogbaibng
+StartupNotify=true
+X-GNOME-UsesNotifications=true
