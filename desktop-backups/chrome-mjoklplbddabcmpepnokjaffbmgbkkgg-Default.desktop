@@ -1,0 +1,14 @@
+# pwa_github.desktop
+
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=GitHub
+Exec=env HOME=/home/ungimonsteo /home/ungimonsteo/.bin/launch_pwa.sh --name "GitHub" --app-id mjoklplbddabcmpepnokjaffbmgbkkgg --profile Default
+Icon=chrome-mjoklplbddabcmpepnokjaffbmgbkkgg-Default
+StartupWMClass=crx_mjoklplbddabcmpepnokjaffbmgbkkgg
+Categories=Network;WebBrowser;
+StartupNotify=true
+X-GNOME-UsesNotifications=true
+
