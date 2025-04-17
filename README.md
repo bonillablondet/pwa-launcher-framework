@@ -10,12 +10,16 @@ This framework allows you to:
 
 ---
 
-## 📦 Folder Structure
+
+### 📦 Folder Structure
 
 ```bash
 ~/.config/pwa-launchers/
-├── desktop-backups/        # Clean copies of all .desktop launcher files (safe from Chrome overwrites)
-├── README.md               # This file
+├── desktop-backups/        # Clean copies of all .desktop launcher files
+├── launch_pwa.sh           # Core script to launch PWAs with scaling support
+├── install.sh              # Fresh install script (sets up ~/.bin and launchers)
+├── restore.sh              # Restores overwritten launcher files
+└── README.md               # This file
 ```
 
 Other folders involved (but not part of this repo):
@@ -44,6 +48,45 @@ Every `.desktop` file should:
 > Example: `chrome-cadlkienfkclaiaibeoongdcgmdikeeg-Default.desktop`
 
 This ensures the dock matches the icon correctly.
+
+---
+
+## 🔧 Install on a New System
+
+To set up this launcher system from scratch on any Linux distro:
+
+```bash
+git clone https://github.com/bonillablondet/pwa-launcher-framework ~/.config/pwa-launchers
+cd ~/.config/pwa-launchers
+./install.sh
+```
+
+> This will:
+> - Copy your `launch_pwa.sh` into `~/.bin`
+> - Make sure it’s executable
+> - Restore all `.desktop` files to your system launcher directory
+> - Prompt you if your PATH needs updating
+> - Update your desktop environment so everything is recognized
+
+Once complete, **all your PWAs will work** — with scaling, proper profiles, and dock integration intact.
+
+---
+
+## 🛠️ Restore Your Launcher System
+
+To restore your PWA system (e.g., after reinstalling Chrome, switching distros, or setting up a new machine):
+
+```bash
+cd ~/.config/pwa-launchers/
+./restore.sh
+```
+
+This script:
+- Reinstalls your `.desktop` launchers
+- Restores the core launcher script
+- Updates the desktop database
+
+That’s it. Everything just works. 💫
 
 ---
 
@@ -77,24 +120,6 @@ This ensures the dock matches the icon correctly.
    - Respect scaling
    - Launch in the right profile
    - Group in the dock properly
-
----
-
-## 🛠️ Restore Your Launcher System
-
-To restore your PWA system (e.g., after reinstalling Chrome, switching distros, or setting up a new machine):
-
-```bash
-cd ~/.config/pwa-launchers/
-./restore.sh
-```
-
-This script:
-- Reinstalls your `.desktop` launchers
-- Restores the core launcher script
-- Updates the desktop database
-
-That’s it. Everything just works. 💫
 
 ---
 
