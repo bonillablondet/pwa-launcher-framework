@@ -1,0 +1,26 @@
+# ========================================================
+# PWA Launcher Framework – Manifest Template
+# --------------------------------------------------------
+# This file lists your Progressive Web Apps (PWAs) so that
+# gen-launchers.sh can generate matching .desktop launchers.
+#
+# FORMAT:
+# name,app_id,profile,icon
+#
+# - name     → Display name of the app (as shown in menu)
+# - app_id   → Chrome/Chromium application ID
+# - profile  → Chrome profile name (e.g., "Default", "Profile 2")
+# - icon     → Path to an icon (absolute or relative), or system icon name
+#
+# NOTES:
+# • Do NOT include spaces after commas
+# • The first line must be the header exactly as shown
+# • Lines starting with '#' are ignored
+#
+# EXAMPLE:
+# name,app_id,profile,icon
+# Google Chat,aeblfdkhhhdcdjpifhhbdiojplfjncoa,Default,google-chat
+# Notion,efaidnbmnnnibpcajpcglclefindmkaj,Profile 2,~/.local/share/icons/notion.png
+# ========================================================
+
+name,app_id,profile,icon

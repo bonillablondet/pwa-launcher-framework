@@ -81,5 +81,3 @@ Test from terminal to verify desktop entry triggers correctly.
 - Dynamic fallback if `$XDG_CURRENT_DESKTOP` is missing
 
 ---
-
-🩵 This is how we polish the Cathedral—after the tower is standing, we carve the filigree.
