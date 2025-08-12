@@ -79,6 +79,9 @@ cd common/pwa-launchers
 ````
 > ⚠️ `manifest.txt` must exist before running `install.sh` — copy and edit `manifest.template.txt` first.
 
+### Make scripts executable (only needed once)
+chmod +x install.sh restore.sh gen-launchers.sh launch_pwa.sh
+
 ---
 
 ## 🗺️ Clarified Command Flow
